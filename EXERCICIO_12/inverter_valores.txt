@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=u9gZiUbP_4o
+
+finished = nova coluna que recebe os dados de unfinished e seus valores são montados pela map e invertidos por essa lambda
+dados['finished'] = dados['unfinished'].map(lambda x: '1' if x == 0 else ('0' if x == 1 else '2'))
